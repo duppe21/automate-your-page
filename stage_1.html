@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="project_CSS.css">
+    <title>Introduction to Programming Project</title>
+  </head>
+  <body>
+      <div class="page-head">
+        <div class="title" id="top"><h1>Udacity</h1></div>
+        <div class="sub-title"><h3>Introduction to Programming</h3></div>
+      </div>
+    <!--Not sure if this is the best way to underline but it looks good don't you think? I was having trouble with my "page-head" CSS here. I couldn't get it to create a box for this area. Was looking to create a seperation between the title and content. I settled with the underline for now.  OK so I'm leaving this note in as a reminder... You can't define a div in CSS and not have class in your div opening tag. -->
+    
+    <!-- Feedback Note: Just for your information. Alternatively to what you did, there is an html tag called <hr> (which stands for horizontal line) which is used to underline sections of code.
+        More info here: http://www.w3schools.com/tags/tag_hr.asp -->
+
+    <div class="links">
+      Stage 1 * 
+      <a href="file:///E:/-Programming/stage_2.1.html">Stage 2</a>
+    </div>
+
+      <h2>Stage 1 Notes</h2>
+        
+        <h3><u>Table of Contents</u></h3>
+            <div class="TOC">
+                <h4><a href="#stage-1_lesson-1">Lesson 1: The basics of Web and HTML</a></h4>                  
+                      
+                    <ul>       
+                      <li><a href="#st-1_topic-1-1">How the Web Works</a></li>
+                      <li><a href="#st-1_topic-1-2">HTML</a></li>
+                      <li><a href="#st-1_topic-1-3">HTML Markup</a></li>
+                      <li><a href="#st-1_topic-1-4">Computers are STUPID???</a></li>
+                      <li><a href="#st-1_topic-1-5">Whitespace</a></li>
+                      <li><a href="#st-1_topic-1-6">Inline vs. Block</a></li></ul><br>
+                             
+                  
+              <h4><a href="#stage-1_lesson-2">Lesson 2: Creating a Structured Document with HTML</a></h4>                                       
+                     <ul>        
+                      <li><a href="#st-1_topic-2-1">HTML Tree-Like Structure</a></li>
+                      <li><a href="#st-1_topic-2-2">Text Editore</a></li></ul><br>
+                             
+                  
+              <h4><a href="#stage-1_lesson-3">Lesson 3: Creating a Structured Document with HTML</a></h4>                  
+                    <ul>         
+                      <li><a href="#st-1_topic-3-1">What is CSS?</a></li>
+                    </ul>
+          </div>
+      
+            
+     <!--I'm not sure I understand this note?? "Please try to be consistent with intends in your code." -->               
+      
+    
+    
+    <div class="content">
+      <div class="lesson">
+        <h2 id="stage-1_lesson-1">Lesson 1: The Basics Web and HTML</h2>
+        <div class="sections">
+          <div class="lesson-topics" id="st-1_topic-1-1"> 
+            How does the Web work?
+          </div>
+          <div class="lesson-notes">
+            <p>Developed in the early 1990's the web is made up of many different components.</p>
+              
+               <p>Major pieces of the web are;<br><b>YOU</b>: We know who this is<br><b>A Computer & Web Browser</b>: You computer running Internet Explorer, FireFox, Google Crome or any other web browser<br><b>The Internet</b>: www or World Wide Web<br><b>Servers</b>: Servers are machines similar to your computer but their main functions are to host files<br><b>HTTP</b>: This protocol is used by your web browser to communicate requests to the servers over the internet<br><b>HTML</b>: Hypertext Markup Language is a set of standards used to tag the elements of a hypertext document. It is the standard protocol for formatting and displaying documents on the web.
+                </p>
+                <p>You type in a URL to your computers web browser requesting webpage. Your computer sends your request over the internet using HTTP <em> "Hypertext Transfer Protocol"</em> to the server where you webpage is stored. The server responds by sending files that your browser displays.
+                </p>
+                <h5><a href="#top">TOP</a></h5>
+                
+          </div>
+        </div>
+      </div>
+      <div class="lesson"> 
+        <div class="sections">
+          <div class="lesson-topics" id="st-1_topic-1-2">
+            HTML
+          </div>
+          <div class="lesson-notes">
+            <p>HTML <em>"HyperText Markup Language"</em> is the basis for almost every 
+              webpage. HTML documents are the heart of the web. The links between these pages are called hyper-links.<br><br>
+                
+                
+                  HTML is Made Up of;
+            </p>      
+            
+              <ol>  
+               <li>Text Content - This is what you see</li>
+               <li>Markup - This is what it looks like or how its arranged</li>
+               <li>Reference to other documents- images, video etc.</li>
+               <li>Links to other pages</li>
+              </ol>
+                
+              
+            
+            <h5><a href="#top">TOP</a></h5>
+                      
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        
+        <div class="sections" id="st-1_topic-1-3">
+          <div class="lesson-topics">
+            HTML Markup
+          </div>
+          <div class="lesson-notes">
+            <p>HTML is made up of things called <b>TAGS</b>. A tag 
+               consists of an opening tag, content and a
+               closing tag. This tag structure is called an Element. The contents of the elements can be more tags, attributes, text, links or images.
+               </p>
+               <p>Some TAG samples can be found <a href=http://www.w3schools.com/tags/tag_a.asp>HERE</a>
+               </p>
+               <p> b tag = BOLD Everything within the opening and closing b tag will be <b>BOLD</b><br>
+                 em tag = <em>Emphasis Everything within the tag will be in italics</em>
+              </p>
+              <p>Important to keep in mind. If you don't close your tag around 
+                  your desired content your entire 
+                  document will be as your defining tag.<br> <span style="color:red"><b>Make sure to close your tag!</b>
+                 </span></p>
+              <h5><a href="#top">TOP</a></h5>
+          </div>
+        </div>
+      </div>
+       
+       <div class="lesson">
+        
+        <div class="sections">
+          <div class="lesson-topics" id="st-1_topic-1-4">
+            Computers are STUPID???
+          </div>
+          <div class="lesson-notes">
+            <p>This is true, computers act on exactly what the  
+               programmer tells them. Any typo or
+               mistake in code can lead to huge problems. There is no 90% correct. It's 100% correct or you won't get your desired outcome.<br><br>
+               Here are a couple links to help you test your code:<br>
+               For HTML visit this site <a href="http://validator.w3.org/#validate_by_input">W3C Markup Validation</a><br>
+               For CSS visit this site <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C CSS validation</a>
+            </p>
+            <h5><a href="#top">TOP</a></h5>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        
+        <div class="sections">
+          <div class="lesson-topics" id="st-1_topic-1-5">
+            Whitespace
+          </div>
+          <div class="lesson-notes">
+            <p>All whitespace in HTML regardless of how it looks to you in the editor turns into a
+               single   space. You'll need to define new lines or blocks.<br><br>
+               br tag = stands for BREAK and is also a void tag. This simply creates a break in a line and creates a new one.<br><br>
+               p tag = Paragraph This is not a void tag because it has content associated with it. It defines a block on information.
+            </p>
+            <h5><a href="#top">TOP</a></h5>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        
+        <div class="sections">
+          <div class="lesson-topics" id="st-1_topic-1-6">
+            Inline vs. Block
+          </div>
+          <div class="lesson-notes">
+            <p>HTML elements are either inline or block.<br>
+                  Inline: The br tag is an example of an inline tag. It simply just ends a line. Inline tags just deal with line content.<br>
+                  Block: The p tag is an example of a  block tag. When used it defines a block of content. It creates an invisible block around your 
+                  content.</p>
+               <p><b>Container Elements</b><br> 
+                  The "span" and "div" tags do nothing but contain their content. You can add style to them to adjust the 
+                  way the content looks.<br>
+                  span = (Inine) tags contain content within a line or a single element.<br>
+                  div = (Block) tags contain a block of content that can  be any number of elements. The div tag plays a huge roll in helping set the structure of you page.</p>
+                  <h5><a href="#top">TOP</a></h5>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="stage-1_lesson-2">Lesson 2 Creating a Structured Document with HTML</h2>
+        <div class="sections">
+          <div class="lesson-topics" id="st-1_topic-2-1">
+            HTML Tree-Like Structure
+          </div>
+          <div class="lesson-notes">
+            <p>"DOM" When programmers talk about (Document Object Model)    they are talking about the
+                tree-like structure of a page that can be found in 
+                the develpers tools.The browser builds a tree like structure of the page of HTML. You can see this by going to your browser tools and selecting the developer tools.<br><br>
+                A good place to learn more about the Document Object Model is this wikipedia <a href=http://en.wikipedia.org/wiki/Tree_structure>artical</a> on Tree Structure.<br><br>
+
+                In the devloper tools you'll see a window with lines of HTML and sidways triangles. You can scoll over the lines and it will highlight that area on your webpage.<br> 
+                Take a look at the sideways triangles. These identify different elements. These elements can contain other elements. You can click on the triangle to open the element to see a cascade of other elements and tags. This gives you the "TREE" also called the DOM tree.<br><br>A couple lessons learned so for. Giving your class a meaningful name and having good structure will make thinks easier on you. Being able to read through and interpret your code easily will help you locate and correct errors that much faster.<br>
+                S Well, You could alwasy just use the code validation services mentioned in Computers are Stupid section.
+                </p>
+                <h5><a href="#top">TOP</a></h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        
+        <div class="sections">
+          <div class="lesson-topics" id="st-1_topic-2-2">
+            Text Editors
+          </div>
+          <div class="lesson-notes">
+            <p>There are many different text editors out there. Each one has its pros and cons. Some help you by recognizing your opening tag and generating the closing for you.<br> They range from the very basic for beginners to the more advanced with all the options and add-ons. The more experienced you get the more advanced editor you may want to use.</p>
+            <h5><a href="#top">TOP</a></h5>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="stage-1_lesson-3">Lesson 3 Adding CSS Style and HTML Structure</h2>
+        <div class="sections">
+          <div class="lesson-topics" id="st-1_topic-3-1">
+            What is CSS?
+          </div>
+          <div class="lesson-notes">
+            <p>Cascading Style Sheet or CSS is code written to control the
+               "<em>style</em>" of HTML elements.<br><br>
+               HTML and CSS are both languages<br>               
+               HTML is the language of the web. It contains syntax and rules for controling the structure of a web page<br>
+               CSS is the style. It controls how the webpage looks.<br><br>
+               <u>Repetition</u><br>
+                Avoiding repetition can be key to successful programming. By continually repeating or rewriting the same code or style attributes over and over throughout your document you can cause errors if you need to make changes. By using CSS you can assign style to your div class once. This way each section with the same div will be the same and when you want to make changes you can be sure that the change will be made in each desired section.<br>
+                It didn't take me long to figure this one out and realize the benefit of CSS with being able to assign style throughout the document by making changes in one location. Each div class can be changed from the CSS keeping you from having to skim through the document hoping you've made all the changes the same.<br><br>
+                <!--Thank you. I actually had this mentioned but the thumb drive I was using was corrupted and rendered everything useless. I actually had to start all over without my written notes. --> 
+
+              There are three ways you can apply CSS styles;
+            </p>  
+              <ol>
+                <li>Apply Directy to the HTML element</li>
+                <li>Embed within the HTML document head</li>
+                <li>Create and use an external style sheet</li>
+              </ol>
+            
+            <p>Using options 2 and 3 are useful in helping you avoid 
+               repetitive entries.<br><br>
+               
+               Resource that helps illustrate this are <a href=www.littlewebhut.com/css/how_to_apply_css_styles>here</a>.</p>
+               <h5><a href="#top">TOP</a></h5>
+          </div>
+        </div>
+      </div>
+    <!-- Well, as we move into lesson 2 I find myself less than confident with lesson 1. I'm not sure if I should have a better grasp on the HTML and especially the CSS but I'll move forward and try to keep up. A work in progress-->
+    </div>
+    
+
+
+
+  </body>
+</html>

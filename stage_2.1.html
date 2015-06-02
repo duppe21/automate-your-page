@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="project_CSS.css">
+    	<title>Introduction to Programming Project</title>
+	</head>
+
+
+		 
+	<body>
+		<div class="page-head">
+        	<div class="title" id="top"><h1>Udacity</h1></div>
+        	<div class="sub-title"><h3>Introduction to Programming</h3></div>
+    </div>
+
+    <div class="links"> 
+      <a href="file:///E:/-Programming/stage_1.html">Stage 1</a>
+      *Stage 2
+    </div>
+
+    	<h2>Stage 2 Notes</h2>
+
+        <h3><u>Table of Contents</u></h3>
+            <div class="TOC">
+                <h4><a href="#stage-2_lesson-1">Lesson 2.1: Introduction to <b>"SERIOUS"</b> Programming</a></h4>                  
+              <h4><a href="#stage-2_lesson-2">Lesson 2.2: Variables and Strings</a></h4>                                       
+       
+              <h4><a href="#stage-2_lesson-3">Lesson 2.3: Input &rArr; Function &rArr; Output</a></h4> 
+
+              <h4><a href="#stage-2_lesson-4">Lesson 2.4: Control Flow &amp; Loops: &quot;IF&quot; and &quot;While&quot;</a></h4>
+
+              <h4><a href="#stage-2_lesson-5">Lesson 2.5: Debugging</a></h4>
+
+              <h4><a href="#stage-2_lesson-6">Lesson 2.6: Structured Data: Lists &amp; for Loops</a></h4>
+
+              <h4><a href="#stage-2_lesson-7">Lesson 2.7: How to Solve Problems</a></h4>                                    
+            </div>
+		<div class="lesson">
+      <h2>Stage 2: Automate Your Page</h2><br>
+
+      	<div class="sections">
+
+        	<div class="lesson-topics">
+        			<h3 id="stage-2_lesson-1">Lesson 2.1: Introduction to <b>"SERIOUS"</b> Programming</h3>          
+        	</div>
+
+        	  <div class="lesson-notes">
+        			<p><b><u>A Computer</u></b></p><!-- As I look at this and how I'm going to get python to return my notes as htms I should maybe make this a <div class="notes-title">. Could save myself some typing and make it easier to call-->
+              <p>
+                Referencing back to stage 1 we mentioned computers are stupid.
+                Well, they really are. A computer will just sit there until we tell it what to do. A computer can be programmed to do anything we want. All we have to do is write a properly structured program and run it.
+              </p> 
+              <p><b><u>A Computer Program</u></b><br>
+                A program comes in many forms and uses. Actually, as soon as you turn on any computer or device you are running some kind of program. Email, web browsing, browser and mobile app are all programs.</p>
+              <p><b><u>Programming Language</u></b><br>       
+                This language is what is used to tell a computer what to do. The programming language was developed to eliminate language ambiguity. From person to persons and country to country things we say could have different meaning. Regular language interpretation could be an issue for computing. The language we are going to use is Python.</p>
+              <p><b><u>Python</u></b><br>
+                Python is a programming language interpreter. When you write your code Python converts that code to instruction a computer can act on. Sounds easy right? Well, keeping in mind your computer is stupid you must use proper grammar. When using Python you must use the exact code in order for the interpreter to run the code. 
+                Backus-Naur Form describes python language rule. It is a formal, mathematical way to specify context-free grammars that is both precise and unambiguous.<br> A fun little article can be found <a href="http://matt.might.net/articles/grammars-bnf-ebnf/">here</a>.
+              </p> 
+              <p><b><u>Expressions</u></b><br>
+                Python interpreter is a language and only knows how to evaluate code that is part of the python language. If something is written that isn't part of the language it will generate a syntax error. Python grammar uses expressions. Python grammar uses expressions. 
+                Replacement grammar for arithmetic expression structure.<br>
+              </p>
+              <p><span class="code">Expression -> Expression - Operator - Expression</span></p>
+                <div class="code-block">Expression = number<br>
+                  Operator = +, *, - etc.<br>
+                  Numbers = 1, 2, 3 etc.
+                </div><br>
+              
+                <h5><a href="#top">TOP</a></h5>      
+        		</div>
+      	</div>
+    </div>
+    <div class="lesson">          
+            
+        <div class="sections">
+
+          <div class="lesson-topics">
+              <h3 id="stage-2_lesson-2">Lesson 2.2: Variables and Strings</h3>          
+          </div>
+
+            <div class="lesson-notes">
+              <p><b><u>What is a variable?</u></b><br> 
+                Python allows you to create variables. We can use a variable to create a name and then use the name to refer to a variable. 
+              </p> 
+              <p><b><u>What does it mean to assign a value to a variable?</u></b><br> 
+                <span class="code">Assignment statement: Name (value)  =  Expression</span><br>
+                Being able to assign variables is a benefit in many ways. For me the biggest I see is a time saver. Being able to assign a name (variable) to repetitive entries or tasks or even just long numbers that are hard to remember like the speed of light is huge and helps understand what you just did. Keeping your statements meaningful helps too.<br>
+                The question which side of = is evaluated first? The right side is looked at first. In this days = 49 you could say I'm taking 49 and assigning it to days. 
+              </p> 
+              <p><b><u>Strings</u></b><br> 
+                Strings are a sequence of characters in quotes. Can be single or double but needs to be consistent. Using double quotes however may be the better idea because you don't want to end your quote just because you typed I'm.<br>
+                Just learned something new with the quotes. You can use TRIPLE quotes to create a multi-line string.
+
+              </p> 
+              <p><b><u>Indexing Strings</u></b><br> 
+                Using <span class="code">[ ]</span> you can select information from your string. <span class="code">[0]</span> will recall the first position of your string from left to right. You can do what I would call a revers index by using negative numbers <span class="code">[-1]</span> and this would recall from right to left. When using the -1, -2 etc. it doesn't use the counted item. You can look at it as whatever your count is minus one for your starting point.  
+              </p> 
+              <p><b><u>Indexing Strings: </u></b><br> 
+                Using [ ] you can select information from your string. [0] will recall the first position of your string from left to right. You can do what I would call a revers index by using negative numbers [-1] and this would recall from right to left. When using the -1, -2 etc. it doesn’t use the counted item. You can look at it as whatever your count is minus one for your starting point.
+              </p> 
+              <p><b><u>Selecting sub-sequences: </u></b><br> 
+                You can select a range by simply using [0:4] the range will start at the 0 character and range up to but not including 4. 
+              </p>
+              <h5><a href="#top">TOP</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="lesson">
+          
+            
+        <div class="sections">
+
+          <div class="lesson-topics">
+              <h3 id="stage-2_lesson-3">Lesson 2.3: Input &rArr; Function &rArr; Output</h3>          
+          </div>
+
+            <div class="lesson-notes">
+              <p><b><u>Function/Procedure</u></b><br> 
+              <div class="code-block">
+              <p>
+                def <span style="color: blue; font-weight: bold">
+                say_hello</span>():<br>
+                <span class="indent">return "Hello!"</span><br>
+                print <span style="color: blue; font-weight: bold">
+                say_hello</span>()<br>
+                >>>Hello!<br>
+                say_hello is a <span style="color: blue; font-weight: bold">
+                unction</span>. Or, as some would call it, a <span style="color: blue; font-weight: bold">
+                procedure</span>.
+              </p>
+              </div>
+              
+              <p><b><u>What a function is?</u></b><br> 
+                A function is programmer defined. You give a function a set of inputs, You tell the function what to do with it and the function outputs your result.
+              </p>
+              <p><b><u>How to make a function/procedure:</u></b><br> 
+                To define or create your function you first <span class="code">def</span> and name your function. Name is usually related to what the function is doing. Some procedures are built in to python and will save you some time. It is possible to build or define your own procedure to get your computer to do what you want it to do.  You would then use a block statement to tell your function what you want it to do with the input information.
+              </p>
+              <p><b><u>How to use a function/procedure:</u></b><br> 
+                You first need to define your procedure and give it some inputs. <span class="code">def  procedure(input, input, input, etc.)</span> as long as the number of inputs matches what's expected. You can also set variables for your inputs. This would allow you to use the same function with different information without rewriting the function. We can also compose a function by using the output of one function as the input for another. It's a good idea that the names of your input relates to what it is. 
+              </p>
+              <p><b><u>Functions defined vs. used</u></b><br> 
+                When defining a function you give it a name and inputs. You then set the value of what you want to do or what you want it to <span class="code">return</span>. Return produces /defines what your output will be.<br>
+                To call or use a function you will need the function name (the value of the parameter/input) preceded by print
+              </p>
+              <h5><a href="#top">TOP</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="lesson">
+          
+            
+        <div class="sections">
+
+          <div class="lesson-topics">
+              <h3 id="stage-2_lesson-4">Lesson 2.4: Control Flow &amp; Loops: &quot;IF&quot; and &quot;While&quot;</h3>          
+          </div>                      <!--Why do we do this for symbols? (&amp;) If we didn't does it have a potential
+                                          to cause an issue later in some coding?-->
+
+            <div class="lesson-notes">
+              <p><b><u>Making Decisions</u></b><br> 
+                Making Decisions: Using symbols (&lt;) less than, (&gt;) greater than or (&lt;=) less than or equal too…
+                (Number) (operator) (Number)
+                Output is the Boolean value: True or false
+                == The double equal sign is used for comparison which means the same as or equality while the single = means assignment.
+              </p>
+              <p><b><u>if</u></b><br> 
+                If statements to control which code gets executed when
+                The keyword "if" is followed by the test_expresion or comparison and a ":" <br>
+                <span class="indent">Now an <u>indented</u> block of code that executes if the expression is true</span><br>
+                Then <u>un-indented</u> code that executes if false<br><br>
+                You can use "if" for simple tasks like when defining bigger and your input is only two numbers.<br>
+                For more complex problem or more numbers we would benifit by using the else statement.<br><br>
+                An "if" statement that is true with execute the next line. A false statement will execute it's "else" partner defined by indent. I've highlighted to help identify. Creating a hidden flow chart.<br><br>
+                In this example we defined a procedure to find the biggest number of 3 numbers. The above code will do this. You could use the built-in operator max. return max(a, b, c)
+              </p>  
+                <div class="code-block">
+                  def biggest(a, b, c):<br>
+                    <span class="indent"><span style="background-color: #FF1493">if a > b:</span></span><br>
+                        <span class="indent2"><span style="background-color: #00FF00">if a > c:</span></span><br>
+                            <span class="indent3">return a</span><br>
+                        <span class="indent2"><span style="background-color: #00FF00">else:</span></span><br>
+                            <span class="indent3">return c</span><br>
+                    <span class="indent"><span style="background-color: #FF1493">else:</span></span><br>
+                        <span class="indent2"><span style="background-color: #00FFFF">if b > c:</span></span><br>
+                            <span class="indent3">return b</span><br>
+                        <span class="indent2"><span style="background-color: #00FFFF">else:</span></span><br>
+                            <span class="indent3">return c</span><br>
+                  print biggest(6, 9, 3)
+                </div><br><br>
+              <p>  
+                Arithmetic, Comparisons, define and call procedures use "if" to make decisions.
+                           
+              </p>
+              <p><b><u>or</u></b><br> 
+                We could also use the "or" operator to compare multiple expressions.<br>
+                With the "or" operator if the first expression is true then the value is true and the second expression isn't evaluated. If the first expression is false then the value is the value of the second expression.<br><br>
+                Stored.built-in procedures.<br> 
+                This is an example of one of the things that makes programming so amazing. Once you (or anyone else) has coded something once, you can recal and use that thing again later as a tool!
+   
+              </p>
+              <p><b><u>Alan Turning 1912 - 1954</u></b><br> 
+                Developed abstract model of a computer in 1936 "Turning Machine"<br>
+                Proved that a machine with a few simple operations could simulate any other computer.<br> 
+                These ideas proved to be good for the war effort.<br>
+  
+              </p>
+              <p><b><u>Loops</u></b><br> 
+                Loops A way to do things over and over.<br><br>
+                We use "while" loops to make code that performs the same task many times.<br><br>
+                Similar to "if" in structure but with if the block executes either 0 or 1 time depending on if the text expression is true. With "while" the text expression can go any number of times as long as the expression is true.<br><br> 
+                "while" runs the text expression. If it's true it will keep running it until it returns a false.
+
+              </p>
+              <h5><a href="#top">TOP</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="lesson">
+          
+            
+        <div class="sections">
+
+          <div class="lesson-topics">
+              <h3 id="stage-2_lesson-5">Lesson 2.5: Debugging</h3>          
+          </div>
+
+            <div class="lesson-notes">
+              <p><b><u>Debugging</u></b><br></p> 
+              <p>Bugs Happen!<br> 
+                <b>WOW!</b> You can say that again. Bugs are inherent to coding. It's just going to happen and rather than banging your head on the wall trying to figure out how to avoid it maybe, try developing a strategy for systematically getting rid of them.  
+              </p>
+              <p><b><u>Syntax Error</u></b><br> 
+                Python sometimes give error messages when the code crashes. This error- code is called Traceback and identifies what line in your code it crashed on.
+                Sometimes bugs don't actually crash your code but calculates an incorrect value it can be difficult to locate. Introducing print statements within your code can help where things went wrong.
+              </p>
+                <div class="code-block">
+                  Example<br>
+                  Print "# DEBUG:"<br>
+                  Print "# location", location
+                </div>
+
+              
+              <p><b><u>Comparing Code</u></b><br> 
+                Comparing your crashing code to a known working similar code is a huge helper in debugging. You can “#” your code out and see how the know working code is working and slowly add your code back in making small changes until it works.  
+              </p>
+              <b><u>5 debugging strategies</u></b><br> 
+                <ol>
+                  <li>Examine error messages<br>
+                  <li>Work from example code<br>
+                  <li>Make sure examples work<br>
+                  <li>Check (print) intermediate results<br>
+                  <li>Keep and compare old versions of your code
+                </ol>
+              
+              <h5><a href="#top">TOP</a></h5>     
+            </div>
+        </div>
+    </div>
+    <div class="lesson">                     
+        <div class="sections">
+
+          <div class="lesson-topics">
+              <h3 id="stage-2_lesson-6">Lesson 2.6: Structured Data: Lists &amp; for Loops</h3>          
+          </div>
+
+            <div class="lesson-notes">
+              <p><b><u>Strings vs. Lists</u></b><br> 
+                With strings all the elements have to be have to be characters.
+                With lists the elements can be whatever you want. Characters, Strings, Numbers, Other lists
+                Strings and lists can both be assigned to a variable: <span class="code">a=’yabba!’</span> or <span class="code">p=[‘y’, ‘a’, ‘b’, ‘b’, ‘a’]</span>
+                You can use the square brackets to select elements. <span class="code">s[0] is ‘y’ or p[0] is ‘y’</span>
+                Select a substring <span class="code">s[2:4] is ‘bb’</span> Remember with the 4 it’s that number -1. <span class="code">p[2:4] is [‘b’, ‘b’]</span>
+                &lt;list_name&gt; [ ] is called an empty list &lt;list_name&gt; [3] single element list and so on.
+
+              </p>
+              <p><b><u>Nested Lists</u></b><br> 
+                Lists in lists: Searching for elements in this situation you would us more than one index. The first index identifies which list you are looking at and the second index is the element in that list. The number if index’s you use depends on how deep the nested lists go.
+              </p>
+              <p><b><u>Mutation</u></b><br> 
+                Lists support mutation. This means that you can change the value of a list after you've created it.<br><br>
+                How Strings Change<br>
+                <span class="code">s = 'Hello'</span><br>
+                <span class="code">s = 'Yello' </span>In this case we didn’t modify the string ‘Hello’ we just changed the assignment of s<br>
+                <span class="code">s = s + w</span><br>
+                Once we concatenate this it takes string 'Yello' and string ‘w’ and creates a new string 'Yellow' "s" now refers to the new string 'Yellow'<br><br>
+                How lists change<br>
+                <span class="code">P=['H', 'e', 'l', 'l', 'o']</span><br>
+                <span class="code">P[0] = ‘Y’</span> this changes the value of the list to <span class="code">p=['Y', 'e', 'l', 'l', 'o']</span><br>
+                The key difference between mutable objects and non-mutable objects is once an object is mutable we have to worry about other variables that might refer to the same object.
+              </p>
+              <p><b><u>List Operations</u></b><br> 
+                <span class="code">.append</span> is like a procedure but it's a method. Append will add a new element to the end of a list. List .append (new element) is List new element.<br> 
+                Important thought here is that append is mutating the list, not creating a new list.<br><br>
+                <span class="code">+</span> This is similar to the concatenation in that it adds lists together.<br> <span class="code">[0,1] + [2,3]</span> is <span class="code">[0,1,2,3]</span><br> This produces a new list<br><br>
+                <span class="code">len</span> Stands for length. We pass into “len” the object we want to know the length of. Len works for lists, strings or anything that’s a collection of things. The output of len is the number of elements in the input.
+
+
+
+
+              </p>
+              <p><b><u>Loops on lists</u></b><br> 
+                While loops evaluate to true or false. While evaluates it’s test expression and if true, executes the block statement and will continue to do so as long as the test expression is true.<br><br>
+                for Loops
+                Python has provides a more simple way to loop through elements of a lists.<br>
+                This is similar to the structure of the while loop and if statement.<br>
+                Structure:<br>
+                <div class="code-block">for &lt;variable_name&gt; in &lt;list_name&gt;:<br><span class="indent">&lt;block&gt;</span></div><br><br>
+                <div class="code-block">
+                  <p>
+                    Input<br><br>
+                    example_list_1 = ['a', 'b', 'c', 'd']<br>
+                    <span class="code">for</span> thing <span class="code">in</span> example_list_1:<br>
+                    <span class="indent3">print thing</span><br><br>
+                  
+                    example_list_2 = [['China', 'Beijing'],
+                    ['USA'  , 'Washington D.C.'],
+                    ['India', 'Delhi']]<br>
+                    <span class="code">for</span> country_with_capital <span class="code">in</span> example_list_2:<br>
+                    <span class="indent2">country = country_with_capital[0]</span><br>
+                    <span class="indent2">capital = country_with_capital[1]</span><br>
+                    print capital + ' is the capital of ' + country
+                  </p>
+                </div>
+                <div class="code-block">
+                  <p>
+                    Output<br><br>
+                  
+                    a<br>
+                    b<br>
+                    c<br>
+                    d<br>
+                  
+                    Beijing is the capital of China<br>
+                    Washington D.C. is the capital of USA<br>
+                    Delhi is the capital of India<br>
+                  </p>
+                </div>
+                
+              
+              <p><b><u>find_element vs. .index</u></b><br> 
+                <span class="code">find_element</span> takes two inputs. The first input is a list of anything. The second input can be a value of any type. You are searching in your list for that value.<br> 
+                Structure: <br>
+                <span class="code">find_element ([2, 4, 6] 2)</span> The 2 is in position [0] so the output &gt;&gt;&gt; <span class="code">0</span><br>
+                <span class="code">find_element (['to', 'too', 'two'] 'three')</span> There isn't match so the output &gt;&gt;&gt;-1 but only if you define the -1<br><br>
+                Another way to define find_element is with <span class="code">.index</span><br>
+                Structure: print &lt;list&gt;.index(&lt;value&gt;) or print <span class="code">p.index(5).</span><br> This will search the assigned <span class="code">p</span> list for <span class="code">5</span> or whatever you are looking for. If what you are looking for isn't in the list it will error.<br><br>
+                Another list operation that will be useful. <span class="code">in</span>
+                In: &lt;value&gt; in &lt;list&gt; <br>This actually makes more sense because it relates to the way we talk. "Is this value in this list?" With <span class="code">in</span> if the value is in the list the output is True. If it isn’t the output is False. “not in” is just the opposite. 
+              </p>
+              <h5><a href="#top">TOP</a></h5>     
+            </div>
+        </div>
+    </div>
+    <div class="lesson">           
+        <div class="sections">
+
+            <div class="lesson-topics">
+              <h3 id="stage-2_lesson-7">Lesson 2.7: How to Solve Problems</h3>          
+            </div>
+
+            <div class="lesson-notes">
+              <p><b><u>Understanding the Problem</u></b><br> 
+                Step 0: Don’t panic. <b>&quot;Too late for that!&quot;<br></b>
+                Step 1: Understand what the possible inputs are.<br>
+                Step 3: Understand the relationship between the two and work through some examples.<br>
+                Step 4: Consider systematically ways to solve the problem. &quot;Simple&quot; mechanical solution.<br>
+                Step 5: Write small bits of code to test them and learn what they do.
+
+              </p>
+               
+              <h5><a href="#top">TOP</a></h5>  
+              
+                   
+            </div>
+        </div>
+    </div>
+    <!--I have to admit I had a bit of trouble with stage 2 and the PYTHON. My html suffered a bit as far as style do to the exta time going over and over the python. Wait... there's one more over in there. I really had a hard time with some of the recorded sessions. Very choppy and hard to understand at times. It's mostly me. Strugling with the python structure and getting frustrated easily-->
+  </body>
+</html>

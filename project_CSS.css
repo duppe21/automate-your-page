@@ -1,0 +1,157 @@
+body {
+  padding: 20px; 
+  max-width: 1000px;
+  margin: 0 auto; 
+  font-family: comic sans ms;
+}
+
+/* This has been the hardest part here for me has been the 
+concept of the padding, margins, width and px vs. %. 
+In my table of contents "TOC" I really had a hard time 
+centering and manipulating the boxes. I find myself just 
+entering and changing things just to see what happens.*/
+
+h1 {
+    text-align: center;
+    color: #DF3A01;
+}
+h2 {
+    text-align: center; 
+    font-weight: lighter; 
+}
+
+h3 { text-align: center;
+    font-weight: lighter;
+}
+h4 { text-align: center; 
+    font-weight: lighter; 
+    color: black; 
+    margin-bottom: 0px}
+
+
+h5 {text-align: center;
+    color: black;
+    font-size: 10px;
+
+}
+
+.page-head {background-color: #CAE1FF;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 20px}
+
+.links {text-align: center;
+    color: black;
+    font-size: 10px;
+
+
+}
+.table-box {
+    border-radius: 20px;
+    padding: 0px; 
+    margin: 10px auto;}
+
+.TOC { 
+    font-size: 15px;
+    padding-bottom: 15px;
+    margin: 10px;
+    text-align: center; 
+    font-weight: bold; 
+    color: black; }
+
+.TOC-LIST {font-size: 20px;
+    margin: 10px;
+    text-align: center; 
+    font-weight: bold; 
+    color: black; }
+
+ul {list-style: none; color: black}
+
+ol {}
+
+li { font-size: 10pt; 
+    color: black; 
+}
+
+
+
+p {font-size: 10pt;  margin: 10px 0}
+
+.content{
+
+}
+
+
+.lesson {
+    background-color: #6E7B8B;
+    border-radius: 20px;
+    color: white;
+    padding: 10px; 
+    margin: 10px auto;
+}
+
+
+
+.sections {
+    background-color: #CAE1FF;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 20px ;
+    color: black;
+}
+
+.lesson-topics {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center; 
+    font-weight: bold; 
+    color: #0431B4; 
+    }
+
+.lesson-notes {
+    margin: 10px;
+}
+
+.notes-title{
+    
+}
+
+.top {
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}
+
+span.code {
+    font-family: Courier;
+    background-color: #BBBBBB;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+
+.code {
+    font-family: Courier;
+    color : black;
+    font-weight: bold;
+    padding-left:  4px;
+    padding-right: 4px;
+}
+
+div.code-block {
+    font-family: Courier;
+    background-color: #DDDDDD;
+    padding: 2px 4px;
+    display: inline-block; 
+    }
+
+span.indent {
+    margin-left: 30px;
+}
+
+span.indent2 {
+    margin-left: 50px;
+}
+
+span.indent3 {
+    margin-left: 70px;
+}
